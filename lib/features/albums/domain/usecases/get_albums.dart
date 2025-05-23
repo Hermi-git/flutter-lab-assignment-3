@@ -13,4 +13,4 @@ class GetAlbums implements UseCase<List<Album>, NoParams> {
   Future<Either<Failure, List<Album>>> call(NoParams params) async {
     return await repository.getAlbums();
   }
-} 
+}      
